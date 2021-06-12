@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillBook, AiFillHome } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { RiHome5Line } from "react-icons/ri";
+import Company from 'views/Company';
 import Dashboard from "views/Dashboard.jsx";
 import Gigs from 'views/Gigs';
 var dashRoutes = [
@@ -23,7 +24,7 @@ var dashRoutes = [
     path: "/company",
     name: "Company",
     iconComponent: <AiFillBook className="mb-2" style={{color: "#abb2c7"}} />,
-    component: Dashboard,
+    component: Company,
     layout: "/admin",
   },
   {

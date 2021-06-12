@@ -33,7 +33,7 @@ class Gigs extends React.Component {
                         </Navbar>
                         <h5 style={{ marginTop: -20, textAlign: "center", borderBottom: "1px solid #d1d1d2fa", }}></h5>
                         <span style={{ color: "#b6b6b8", fontSize: 15, fontWeight: "bold", }}>New gig </span>
-                        <Row className="mt-4" style={{ justifyContent: "initial",  }}>
+                        <Row className="mt-4" style={{ justifyContent: "space-around",  }}>
                             <Col xs={8} md={2} className="small-card" style={{ borderRadius: 10 }}>
                                 <p style={{ color: "#b6b6b8", marginLeft: 20 }}>Basic Data</p>
                                 <span style={{ color: "#fbb30b" }}><BsCircle stule={{ color: "#fbb30b" }} /> Renumeration</span>

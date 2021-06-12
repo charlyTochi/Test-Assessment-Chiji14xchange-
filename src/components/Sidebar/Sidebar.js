@@ -1,6 +1,5 @@
 
 // javascript plugin used to create scrollbars on windows
-import logo from "logo-white.svg";
 import PerfectScrollbar from "perfect-scrollbar";
 import React from "react";
 import { NavLink } from "react-router-dom";
@@ -34,22 +33,11 @@ class Sidebar extends React.Component {
     return (
       <div className="sidebar secondary-color" data-color={this.props.backgroundColor}>
         <div className="sidebar-wrapper secondary-color" ref="sidebar">
-          <div className="logo">
-            <a
-              href="https://www.creative-tim.com?ref=nudr-sidebar"
-              className="simple-text logo-mini"
-              target="_blank"
-            >
-              <div className="logo-img">
-                <img src={logo} alt="react-logo" />
-              </div>
-            </a>
-            <a
-              href="https://www.creative-tim.com?ref=nudr-sidebar"
-              className="simple-text logo-normal"
-              target="_blank"
-            >
-              Test
+          <div className="logo-area mt-4" style={{textAlign: "center"}}>
+            <a style={{fontWeight: "bold", fontSize: 18}} >
+            <img src={require('../../assets/img/logo.png')} style={{ height: 35, width: 40 }}  />
+
+              test
             </a>
           </div>
           <Nav>
@@ -60,7 +48,7 @@ class Sidebar extends React.Component {
                   className={
                     this.activeRoute(prop.layout + prop.path) +
                     (prop.pro ? " active active-pro" : "")
-                  }
+                  } style={{ color: "#fbfbff" }}
                   key={key}
                 >
                   <NavLink
@@ -68,7 +56,7 @@ class Sidebar extends React.Component {
                     className="nav-link"
                     activeClassName="active"
                     style={{ borderRadius: 0, margin: 0, color: "#ffff", textTransform: "capitalize" }}
-                     >
+                  >
                     <i style={{ color: "red" }} className={"now-ui-icons " + prop.icon}><span>{prop.iconComponent}</span> </i>
                     <p style={{ color: "#abb2c7" }}>{prop.name}</p>
                   </NavLink>
