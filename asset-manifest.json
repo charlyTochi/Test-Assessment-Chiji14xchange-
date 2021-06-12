@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Test-Assessment-Chiji14xchange-/static/css/main.643c10f5.chunk.css",
+    "main.js": "/Test-Assessment-Chiji14xchange-/static/js/main.5e631c39.chunk.js",
+    "main.js.map": "/Test-Assessment-Chiji14xchange-/static/js/main.5e631c39.chunk.js.map",
+    "runtime-main.js": "/Test-Assessment-Chiji14xchange-/static/js/runtime-main.64f58cc4.js",
+    "runtime-main.js.map": "/Test-Assessment-Chiji14xchange-/static/js/runtime-main.64f58cc4.js.map",
+    "static/css/2.800b4633.chunk.css": "/Test-Assessment-Chiji14xchange-/static/css/2.800b4633.chunk.css",
+    "static/js/2.7a187e49.chunk.js": "/Test-Assessment-Chiji14xchange-/static/js/2.7a187e49.chunk.js",
+    "static/js/2.7a187e49.chunk.js.map": "/Test-Assessment-Chiji14xchange-/static/js/2.7a187e49.chunk.js.map",
+    "index.html": "/Test-Assessment-Chiji14xchange-/index.html",
+    "precache-manifest.043ca7f36a5c485c9c31c89c27566a83.js": "/Test-Assessment-Chiji14xchange-/precache-manifest.043ca7f36a5c485c9c31c89c27566a83.js",
+    "service-worker.js": "/Test-Assessment-Chiji14xchange-/service-worker.js",
+    "static/css/2.800b4633.chunk.css.map": "/Test-Assessment-Chiji14xchange-/static/css/2.800b4633.chunk.css.map",
+    "static/css/main.643c10f5.chunk.css.map": "/Test-Assessment-Chiji14xchange-/static/css/main.643c10f5.chunk.css.map",
+    "static/js/2.7a187e49.chunk.js.LICENSE.txt": "/Test-Assessment-Chiji14xchange-/static/js/2.7a187e49.chunk.js.LICENSE.txt",
+    "static/media/now-ui-dashboard.scss?v1.4.0": "/Test-Assessment-Chiji14xchange-/static/media/nucleo-outline.8ebec31f.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64f58cc4.js",
+    "static/css/2.800b4633.chunk.css",
+    "static/js/2.7a187e49.chunk.js",
+    "static/css/main.643c10f5.chunk.css",
+    "static/js/main.5e631c39.chunk.js"
+  ]
+}
