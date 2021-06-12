@@ -26,7 +26,7 @@
     "reactstrap": "8.4.1"
   },
   "scripts": {
-    "predeploy":"num run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
