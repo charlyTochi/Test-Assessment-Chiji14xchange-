@@ -1,5 +1,6 @@
 import React from "react";
 import { BiBell } from "react-icons/bi";
+import { BsFillPersonFill } from "react-icons/bs";
 import { FiMail, FiSettings } from "react-icons/fi";
 import {
   Collapse, Container, Input, InputGroup, InputGroupAddon, InputGroupText, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem
@@ -142,7 +143,7 @@ class Header extends React.Component {
                 <BiBell style={{ color: "black",marginTop: 10, margin: 15, height: 15, width: 15 }} />
                 <FiMail style={{color: "black", marginTop: 10, margin: 15, height: 15, width: 15 }} />
                 <FiSettings style={{ color: "black",marginTop: 10, margin: 15, height: 15, width: 15 }} />
-                <BiBell style={{ color: "black",marginTop: 10, margin: 15, height: 15, width: 15 }} />
+                <BsFillPersonFill style={{ color: "black",marginTop: 10, margin: 15, height: 15, width: 15 }} />
               </NavItem>
             </Nav>
           </Collapse>

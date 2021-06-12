@@ -1,6 +1,5 @@
 // core components
 import React from "react";
-import { BiCheckCircle, BiLeftArrow } from "react-icons/bi";
 import { BsCircle } from "react-icons/bs";
 // reactstrap components
 import { Container, Input, InputGroup, Navbar, NavbarBrand } from "reactstrap";
@@ -34,7 +33,7 @@ class Gigs extends React.Component {
                         </Navbar>
                         <h5 style={{ marginTop: -20, textAlign: "center", borderBottom: "1px solid #d1d1d2fa", }}></h5>
                         <span style={{ color: "#b6b6b8", fontSize: 15, fontWeight: "bold", }}>New gig </span>
-                        <Row className="mt-4" style={{ justifyContent: "space-around", }}>
+                        <Row className="mt-4" style={{ justifyContent: "space-around",  }}>
                             <Col xs={8} md={2} className="small-card" style={{ borderRadius: 10 }}>
                                 <p style={{ color: "#b6b6b8", marginLeft: 20 }}>Basic Data</p>
                                 <span style={{ color: "#fbb30b" }}><BsCircle stule={{ color: "#fbb30b" }} /> Renumeration</span>
@@ -54,18 +53,10 @@ class Gigs extends React.Component {
                                     </Col>
                                 </Row>
 
-                                    <div className="flex" style={{ flexDirection: "row", justifyContent: "flex-end" }}>
-                                        <Button
-                                            className="mx-1 btn-link shadow-none bg-transparent"
-                                            type="button"
-                                        >
-                                            <BiLeftArrow className="mr-2" style={{ fontSize: 20 }} /> Back
-                                        </Button>
-                                        <Button className="mx-1" >
-                                            Submit
-                                            <BiCheckCircle className="ml-2" style={{ fontSize: 20 }} />
-                                        </Button>
-                                    </div>
+                                    <Row className="flex" style={{ marginTop: 40, flexDirection: "row", justifyContent: "flex-end" }}>
+                                        <h5 style={{margin: 30, marginTop: -3, fontSize: 15 , fontWeight: "bold"}}> Back</h5>
+                                        <Button style={{ padding: 10, background: "#2f417e", marginTop: -10, width: 100, height: 35, borderRadius: 10, color: "#fbfbff" }}> Add gig</Button>
+                                    </Row>
 
                             </Col>
 
